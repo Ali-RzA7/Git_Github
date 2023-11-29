@@ -1,0 +1,42 @@
+git status => Güncel git durumunu gösterir.
+
+git init => Git tanımlanır.
+
+rm -rf .git => Git silinir.
+
+git add Dosyaİsmi=> Değişiklikleri geçici bir bölgeye atar, hangi dosyaların bir sonraki commit'e dahil edileceğini söyler.
+git add . => Tüm değişiklikleri ekler.
+
+git commit -m "Mesaj" => Değişiklikleri kaydeder.
+
+git log => Commitleri gösterir.
+
+
+.gitignore dosyasın içine git komutlarından etkilenmesini istenilmeyen dosyalar tutulur.
+
+Head anlık olarak bulunulan commitin ve branchin konumundadır.
+
+git branch => Branchleri gösterir.
+
+git branch İsim => Branch oluşturur.
+
+git switch İsim => Head İsim branchine geçer.
+
+git merge İsim => İsim branchini Headin olduğu konumla birleştirir.
+
+git stash => Henüz commit edilmeyen değişiklikleri geçici bir saklama alanında tutar.
+
+git stash pop => Saklama alanından geri getirir.
+
+git stash list => Saklanları listeler.
+
+git stash apply stash@{indeks} => indeks'e göre geri getirilir.
+
+git stash clear => Tüm slahler silinir.
+
+git checkout HASH => HEAD HASH commitine gider.
+
+git reset HASH => HASH comitine gider, o committen sonra ki tüm commitler'in içerikleri getirilir ve commitler silinir.
+
+git reset --hard HASH => HASH commitine gider, o committen sonraki tüm commitler içerikleri ile silinir.
+ 
